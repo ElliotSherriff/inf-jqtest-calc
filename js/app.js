@@ -41,7 +41,10 @@ $(".btn-danger").on("click",function(){
 });
 //Clear Calculator
 $("[name*='bttnc']").on("click",function(){
-	$('#output').val('')
+  num1 = [];
+  num2 = [];
+  operand = [];
+	$('#output').val((''))
 	console.clear();
 });
 	
